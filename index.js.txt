@@ -1,0 +1,5 @@
+const ball = document.getElementById("ball");
+
+function toggleBounce() {
+ ball.classList.toggle("toggleBounce")
+}

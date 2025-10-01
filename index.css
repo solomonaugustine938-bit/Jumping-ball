@@ -1,0 +1,46 @@
+body{
+ background:cyan;
+ justify-content:center;
+ display:flex;
+ margin:0;
+ height:100vh;
+ align-items:center;
+}
+
+.circle{
+ height:80px;
+ width:80px;
+ background: radial-gradient(red, blue);
+ border-radius:50%;
+ position:absolute;
+}
+
+
+.toggleBounce{
+ animation: circle 0.5s infinite alternate;
+}
+
+@keyframes  circle{
+ from{
+  transform:translateY(0);
+ }
+ to{
+  transform: translateY(-270px);
+ }
+}
+
+.play{
+ margin-top:600px;
+}
+
+.dash{
+ height: 100px;
+ width:100px;
+ border-radius:50%;
+ border:dashed;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ color:red;
+ position:absolute;
+}
